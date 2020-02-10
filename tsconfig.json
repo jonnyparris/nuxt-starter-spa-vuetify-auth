@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "types": [
+      "@nuxt/types",
+      "@types/node",
+      "@types/webpack-env",
+      "@nuxtjs/vuetify",
+      "@nuxtjs/axios",
+      "@types/nuxtjs__auth",
+      "nuxt-i18n"
+    ]
+  },
+  "exclude": ["node_modules"]
+}

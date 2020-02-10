@@ -1,0 +1,58 @@
+{
+  "name": "nuxt_vuetify_starter",
+  "version": "2.8.1",
+  "private": false,
+  "description": "Nuxt.js TypeScript project with vuetify",
+  "scripts": {
+    "build": "nuxt-ts build",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lintfix": "eslint --fix --ext .ts,.js,.vue .",
+    "dev": "nuxt-ts",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "gen-typings": "node node_scripts/generate.js",
+    "test": "echo 'TODO: Getting tests done'"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "0.3.8",
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "5.9.2",
+    "nuxt": "2.11.0",
+    "nuxt-i18n": "^6.4.1",
+    "nuxt-property-decorator": "2.5.0",
+    "ts-node": "8.6.2",
+    "vue-cookieconsent-component": "^1.2.0",
+    "vue-recaptcha": "^1.3.0",
+    "vuetify": "2.2.4",
+    "vuex-class": "0.3.2"
+  },
+  "devDependencies": {
+    "@miragejs/server": "^0.1.29",
+    "@nuxt/typescript-build": "^0.5.6",
+    "@nuxtjs/eslint-config-typescript": "^1.0.0",
+    "@nuxtjs/vuetify": "1.10.1",
+    "@types/node": "13.1.7",
+    "@types/nuxtjs__auth": "^4.8.3",
+    "@types/webpack-env": "1.15.0",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-imports": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-chai-expect": "^2.1.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.19.1",
+    "sass": "^1.24.4",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  },
+  "pre-commit": [
+    "lintfix"
+  ]
+}
