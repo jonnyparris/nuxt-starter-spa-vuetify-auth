@@ -25,5 +25,3 @@ ENV GIT_REV $GIT_REV
 FROM build AS development
 ENV HOST 0.0.0.0
 CMD [ "npm", "run", "dev"]
-FROM build AS production-builder
-RUN npm run generate
