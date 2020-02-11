@@ -1,5 +1,10 @@
 # Vue Project Starter
 
+1. Clone this repo.
+2. Customise environment variables as per top of `nuxt.config.ts`.
+3. Delete everything from this line upwards of this README and replace the project title.
+---
+
 ## Run it locally
 
 1. Install docker & make sure it's running.
@@ -8,7 +13,7 @@
 
 > **Notes / Troubleshooting:**
 
-> - `make help` (or just `make`) will list available make tasks
+> - `make help` (or just `make`) will list other available make tasks
 > - Mac users that don't already have xcode commandline tools installed may need to run `xcode-select --install` in order to run `make` commands. Othwerwise you might encounter an error that looks something like `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools)` when you try to run `make start`
 
 ## About the stack

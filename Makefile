@@ -5,7 +5,7 @@ CI_GIT_TAG=$(shell git describe --abbrev=0 --tag master)
 TEST_SITEKEY=IamaGoogleRecaptchaSitekeyChangeMe
 SERVICE_NAME=client
 
-start:	## start development server
+start:	## start development server with hot reloading at localhost:7000
 	docker-compose down && docker-compose build --force --build-arg VERSION=$(VERSION) --build-arg SITEKEY=$(TEST_SITEKEY) --build-arg GIT_REV=$(CI_COMMIT_SHORT_SHA) --build-arg GIT_TAG=$(CI_GIT_TAG) --build-arg BUILD_DATE=$(DATE) && docker-compose up
 
 shell: ## start shell session inside of the container
