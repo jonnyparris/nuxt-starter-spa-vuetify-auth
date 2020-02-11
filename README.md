@@ -23,7 +23,12 @@ Nuxt generates a static site for production.
 
 ### Added modules & presets
 
-- Nuxt i18n
+- Nuxt auth module, already setup with a basic local auth strategy
+- Nuxt i18n for multi-lingual support
+- vue-cookieconsent-component for cookie banner
+- vue recaptcha for signup request throttling
+- MirageJS for mock server api responses
+- Linting enforced on as a precommit hook using the pre-commit package
 
 ## Contribution tips
 
