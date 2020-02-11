@@ -1,0 +1,12 @@
+/* Custom utils */
+.p-relative {
+  position: relative;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
