@@ -36,8 +36,3 @@ Nuxt generates a static site for production.
 - Include screencaptures in any merge requests that involve updating the UI to save review time. ([Gyazo](https://gyazo.com/) is good for capturing animations easily)
 - Ensure do-it-later (aka do-it-friday) comments are prefixed with capitalised "TODO" as a convention so it's easy to highlight and find them all
 - Ensure all visible user strings are localised. [Vue i18n Ally](https://marketplace.visualstudio.com/items?itemName=antfu.vue-i18n-ally) is an invaluable vscode extension for making this an effortless process.
-
-### Run E2E tests
-
-1. Make sure app is running locally at [http://localhost:4000/](http://localhost:4000/).
-2. `npx cypress open`.
