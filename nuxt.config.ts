@@ -15,6 +15,7 @@ export const supportedDateLocales = ['enGB'];
 export default {
   env: {
     APP_TITLE: appTitle,
+    GIT_TAG: process.env.GIT_TAG,
     GIT_REV: process.env.GIT_REV,
     VERSION: process.env.VERSION,
     SITEKEY: process.env.SITEKEY,
