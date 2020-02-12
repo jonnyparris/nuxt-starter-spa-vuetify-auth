@@ -2,6 +2,10 @@
   "name": "nuxt_vuetify_starter",
   "version": "0.0.1",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyparris/nuxt-starter-spa-vuetify-auth.git"
+  },
   "description": "Nuxt.js TypeScript project with vuetify",
   "scripts": {
     "build": "nuxt-ts build",
