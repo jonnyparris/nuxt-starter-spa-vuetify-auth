@@ -1,8 +1,9 @@
 # Vue Project Starter
 
 1. Clone this repo.
-2. Customise environment variables as per top of `nuxt.config.ts`.
+2. Customise environment variables as per top of `nuxt.config.ts`, and customise the Google Recaptcha sitekey in the `Makefile`.
 3. Delete everything from this line upwards of this README and replace the project title.
+
 ---
 
 ## Run it locally
