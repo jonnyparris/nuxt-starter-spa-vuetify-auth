@@ -49,11 +49,9 @@ export default {
   },
   plugins: [
     '~/plugins/axios',
-    ...(process.env.NODE_ENV !== 'production' ? ['~/plugins/mirage/mirage'] : []),
-    '~/plugins/highlight',
-    '~/plugins/dompurify'
+    ...(process.env.NODE_ENV !== 'production' ? ['~/plugins/mirage/mirage'] : [])
   ],
-  loading: '~/components/ui-utils/PageLoading.vue',
+  loading: { color: '#fff' },
   css: ['~/assets/css/main.css'],
   build: {
     extend(config: any, ctx: any) {
