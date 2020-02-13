@@ -85,7 +85,7 @@ export default {
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
   modules: ['nuxt-i18n', '@nuxtjs/axios', '@nuxtjs/auth'],
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: ['~/assets/css/variables.scss'],
     theme: {
       dark: true,
       themes: {
